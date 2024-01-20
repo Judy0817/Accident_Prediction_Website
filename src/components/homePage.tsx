@@ -13,7 +13,7 @@ const HomePage = () => {
       <Header />
       <main>
       <div className='dashboard'>
-      <h1 className='heading_home'>Welcome to Your Dashboard</h1>
+      <h1 className='heading_home'>US Road Accident Casualities Tracking Dashboard</h1>
       <h3 className='sub_heading_home'>Welcome to Your Dashboard</h3>
 
        <div className="dash1">
