@@ -31,20 +31,35 @@ const Header: React.FC = () => {
       )}
 
       <div className="main-topic">MENU</div>
-      <div className="sub-topic with-icon">
+      <Link to="/" className="sub-topic with-icon">
         <span className="icon">
           <FontAwesomeIcon icon={faChartLine} />
         </span>
         Graph Sub-Topic
-      </div>
+      </Link>
 
       <div className="main-topic">PRO VERSION</div>
-      <div className="sub-topic with-icon">
+      <Link to="/" className="sub-topic with-icon">
         <span className="icon">
           <FontAwesomeIcon icon={faLightbulb} />
         </span>
         Light Sub-Topic
-      </div>
+        
+      </Link>
+      <Link to="/" className="sub-topic with-icon">
+        <span className="icon">
+          <FontAwesomeIcon icon={faLightbulb} />
+        </span>
+        Light Sub-Topic
+        
+      </Link>
+      <Link to="/" className="sub-topic with-icon">
+        <span className="icon">
+          <FontAwesomeIcon icon={faLightbulb} />
+        </span>
+        Light Sub-Topic
+        
+      </Link>
 
       <div className="main-topic">UI COMPONENTS</div>
       <div className="sub-topic with-icon">
@@ -53,8 +68,32 @@ const Header: React.FC = () => {
         </span>
         Diamond Sub-Topic
       </div>
+      <div className="sub-topic with-icon">
+        <span className="icon">
+          <FontAwesomeIcon icon={faGem} />
+        </span>
+        Diamond Sub-Topic
+      </div>
+      <div className="sub-topic with-icon">
+        <span className="icon">
+          <FontAwesomeIcon icon={faGem} />
+        </span>
+        Diamond Sub-Topic
+      </div>
+      <div className="sub-topic with-icon">
+        <span className="icon">
+          <FontAwesomeIcon icon={faGem} />
+        </span>
+        Diamond Sub-Topic
+      </div>
 
       <div className="main-topic">WIDGETS</div>
+      <div className="sub-topic with-icon">
+        <span className="icon">
+          <FontAwesomeIcon icon={faCar} />
+        </span>
+        Car Sub-Topic
+      </div>
       <div className="sub-topic with-icon">
         <span className="icon">
           <FontAwesomeIcon icon={faCar} />
@@ -85,29 +124,17 @@ const Header: React.FC = () => {
         </span>
         Light Sub-Topic
       </div>
-
-      <div className="main-topic">UI COMPONENTS</div>
       <div className="sub-topic with-icon">
         <span className="icon">
-          <FontAwesomeIcon icon={faGem} />
+          <FontAwesomeIcon icon={faLightbulb} />
         </span>
-        Diamond Sub-Topic
+        Light Sub-Topic
       </div>
-
-      <div className="main-topic">WIDGETS</div>
       <div className="sub-topic with-icon">
         <span className="icon">
-          <FontAwesomeIcon icon={faCar} />
+          <FontAwesomeIcon icon={faLightbulb} />
         </span>
-        Car Sub-Topic
-      </div>
-
-      <div className="main-topic">CHARTS</div>
-      <div className="sub-topic with-icon">
-        <span className="icon">
-          <FontAwesomeIcon icon={faPencilAlt} />
-        </span>
-        Pencil Sub-Topic
+        Light Sub-Topic
       </div>
     </div>
 
